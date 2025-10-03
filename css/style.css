@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/games');
+@import url('http://fonts.cdnfonts.com/css/paranoid-orange');
+
+
+:root {
+    /* CSS HEX */
+    --blue-green: #119ab8ff;
+    --candy-pink: #e26a6fff;
+    --mango-tango: #f68a50ff;
+    --byzantine: #cc08a2ff;
+    --russian-violet: #381754ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 110px;
+}
+
+body {
+    background-color: rgb(140, 217, 232);
+    font-family: 'Open Sans';
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.slide {
+    position: relative;
+    display: none;
+}
+
+.active {
+    display: block;
+    left: 0;
+}
+
+.bi-caret-left-fill:active,
+.bi-caret-right-fill:active {
+    color: black;
+}.bi-caret-left-fill:hover,
+.bi-caret-right-fill:hover {
+    color:#ec13b6;
+}
+
+.bi-caret-left-fill,
+.bi-caret-right-fill {
+    color: grey;
+    transition: 0.3s all ease-in-out;
+     cursor: pointer;
+}
+
+.logo {
+    font-family: 'Games',
+        sans-serif !important;
+    color: white;
+    font-weight: normal;
+    font-size: 2em !important;
+    transition: all .3s;
+
+}
+
+.logo:hover {
+    text-shadow: 35px 35px 4px rgb(62, 196, 201),
+        -35px -35px 4px rgb(161, 40, 143);
+    transition: all .3s;
+    color: rgb(207, 158, 24);
+}
+
+.ico-color {
+    color: rgb(62, 196, 201);
+}
+
+.navbar-color {
+    background-color: var(--russian-violet) !important;
+    box-shadow: 0px 0px 100px rgb(62, 196, 201);
+
+}
+
+footer {
+    box-shadow: 0px 0px 100px rgb(62, 196, 201);
+}
+
+.list-color {
+    background-color: var(--russian-violet) !important;
+    color: rgb(207, 158, 24);
+    text-shadow: none;
+    transition: all .8s;
+    font-family: 'Paranoid Orange', sans-serif;
+    font-size: 1.8em;
+
+    /* box-shadow: inset 0 -10px 50px rgb(62, 196, 201); */
+
+}
+
+.list-color:hover {
+    /* text-shadow: 35px 35px 2px rgb(62, 196, 201),
+        -35px -35px 2px rgb(161, 40, 143); */
+    /* transition: all .5s;
+    box-shadow: inset 0 20px 20px rgb(161, 40, 143); */
+    filter: brightness(1.5);
+    letter-spacing: .3em;
+
+}
+
+.logo-footer {
+    font-family: 'Games',
+        sans-serif !important;
+    color: white;
+    font-weight: normal;
+    transition: all .3s;
+}
+
+.logo-footer:hover {
+    text-shadow: 20px 20px 4px rgb(62, 196, 201),
+        -20px -20px 4px rgb(161, 40, 143);
+    transition: all .3s;
+    color: rgb(207, 158, 24);
+}
+
+.list-active {
+    filter: brightness(.5);
+}
+
+.bg-card {
+    background-color: #b3148a !important;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #b3148a;
+    margin: 10px auto;
+    padding: 5px 30px;
+    width: 800px;
+    box-shadow: 0 0 5px black;
+    color: white;
+    font-size: x-large;
+    border-radius: 20px;
+}
+
+.wrapper a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.logo2 {
+    font-family: 'Games',
+        sans-serif !important;
+    color: white;
+    font-weight: normal;
+    font-size: 2em !important;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+
+.logo2:hover {
+    text-shadow: 235px 0px 4px rgb(78, 201, 62),
+        -265px 0px 4px rgb(235, 103, 59);
+    transition: all .3s;
+    color: rgb(207, 158, 24);
+}
+
+.onhover{
+    transition: .3s all ease-in-out !important;
+}
+.onhover:hover{
+    color: #ec13b6 !important;
+    cursor: pointer;
+}
+
+.fonts{
+    font-family: 'Paranoid Orange', sans-serif;
+
+}
+.size{
+    font-size: 1.13em;
+}
